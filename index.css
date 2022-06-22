@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+@font-face {
+    font-family: "CursedTimer";
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+.scoreboard {
+    height: 280px;
+    margin: 24px 0px;
+    display: flex;
+    gap: 120px;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+h1, h2, h3, h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #EEEEEE;
+    margin: 0;
+}
+
+#score-counter-home {
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    color: #F94F6D;
+    font-size: 90px;
+    line-height: 127px;
+    font-family: CursedTimer;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#score-counter-away {
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    color: #F94F6D;
+    font-size: 90px;
+    line-height: 127px;
+    font-family: CursedTimer;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.score-btn {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #9AABD8;
+    font-family: CursedTimer;
+    font-size: 18px;
+}
+
+.score-btn:hover {
+    background-color: #9AABD8;
+    color: #1B244A;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between
+}
+
+#home {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#away {  
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#reset-btn-container {
+    display: block;
+    text-align: center;
+    margin: 24px
+}
+
+#reset-btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 8px 16px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+}
+
+#reset-btn:hover {
+    background-color: #9AABD8;
+    color: #1B244A;
+}
